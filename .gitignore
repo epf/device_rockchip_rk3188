@@ -2,3 +2,4 @@
 !preinstall_del/readme.txt
 *.iml
 .idea/*
+*~

@@ -51,7 +51,7 @@ sys.resolution.changed=false
 ro.default.size=100
 persist.sys.language=en
 persist.sys.country=US
-persist.sys.timezone=US/Eastern
+persist.sys.timezone=America/New_York
 persist.adb.notify=0
 ro.product.locale.language=en
 ro.product.locale.region=US
@@ -63,3 +63,4 @@ ro.kernel.android.checkjni=0
 #set default lcd density to Rockchip tablet
 ro.sf.lcd_density=240
 ro.adb.secure=0
+ro.secure=0
