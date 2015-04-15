@@ -16,5 +16,7 @@ PRODUCT_COPY_FILES += \
         device/rockchip/rk3188/preinstall/default_wallpaper.jpg:system/media/rkfactory/default_wallpaper.jpg\
 	device/rockchip/rk3188/preinstall/busybox:system/xbin/busybox \
 	device/rockchip/rk3188/preinstall/su:system/xbin/su \
+	device/rockchip/rk3188/preinstall/su:system/xbin/daemonsu \
+	device/rockchip/rk3188/preinstall/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
 
 
