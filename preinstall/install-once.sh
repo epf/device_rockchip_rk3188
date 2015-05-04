@@ -23,12 +23,3 @@ if [ ! -d /mnt/internal_sd/ViPER4Android/Kernel ]; then
 else
   echo "Viper4Android Impulses already installed"
 fi
-
-# Check if ClockworkMod Recovery has already been installed
-if [ ! -f /mnt/internal_sd/.clockwork_recovery ]; then
-  echo "Flashing ClockworkMod to Recovery"
-  dd if=/system/media/install/recovery.img of=/dev/block/platform/emmc/by-name/recovery bs=4096
-  touch /mnt/internal_sd/.clockwork_recovery
-else
-  echo "ClockworkMod already flashed to Recovery"
-fi
