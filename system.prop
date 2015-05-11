@@ -19,7 +19,7 @@ debug.nfc.se=false
 
 #add Rockchip properties here
 #ro.rksdk.version=RK30_ANDROID$(PLATFORM_VERSION)-SDK-v1.00.00 \
-ro.rksdk.version=AD3188_KK4.4.2_CARPAD_1.0.9
+ro.rksdk.version=AD3188_KK4.4.2_xdAuto_1.1.6_b2
 
 ro.rk.screenoff_time=-1
 ro.rk.screenshot_enable=true
