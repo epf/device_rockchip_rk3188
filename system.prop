@@ -35,6 +35,7 @@ ro.sf.hwrotation=0
 ro.rk.MassStorage=false
 ro.rk.systembar.voiceicon=true
 ro.rk.systembar.tabletUI=true
+ro.voice.capable=true
 ro.config.hw_quickpoweron=true
 debug.sf.hw=1 
 debug.performance.tuning=1 
