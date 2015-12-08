@@ -1,0 +1,6 @@
+{
+    "otaid": "<< Kernel OTA ID >>",
+    "otaver": "<< Kernel Version >>",
+    "otatime": "<< Date/time of Kernel in yyyymmdd-hhmm format >>",
+    "fullver": "<< Output of `cat /proc/version` (*) >>"
+}

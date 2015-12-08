@@ -8,6 +8,7 @@ PRODUCT_PACKAGES += ViPER4AndroidPresets
 PRODUCT_PACKAGES += RebootMenu
 PRODUCT_PACKAGES += GoogleSearch
 PRODUCT_PACKAGES += GoogleLauncher
+PRODUCT_PACKAGES += OTA-Updater
 
 PRODUCT_COPY_FILES += \
 	device/rockchip/rk3188/preinstall/ViPER4AndroidPresets.zip:system/media/install/ViPER4AndroidPresets.zip \
@@ -21,4 +22,6 @@ PRODUCT_COPY_FILES += \
     device/rockchip/rk3188/preinstall/install-once.sh:system/bin/install-once.sh \
     device/rockchip/rk3188/preinstall/install-recovery.sh:system/bin/install-recovery.sh \
 	device/rockchip/rk3188/preinstall/libv4a_fx_jb_NEON_HQ.so:system/lib/soundfx/libv4a_fx_jb_NEON_HQ.so \
-
+	device/rockchip/rk3188/preinstall/ota.prop:system/ota.prop \
+	device/rockchip/rk3188/preinstall/rom.ota.prop:system/rom.ota.prop \
+	device/rockchip/rk3188/preinstall/com.otaudater.feature.xml:system/features/com.otaudater.feature.xml \

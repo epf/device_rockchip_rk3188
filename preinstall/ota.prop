@@ -1,0 +1,4 @@
+{
+    "system_sdpath": "/mnt/internal_sd",
+    "recovery_sdpath": "/internal_sd"
+}
