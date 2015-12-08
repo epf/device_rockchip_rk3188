@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/apns-full-conf.xml:system
 PRODUCT_COPY_FILES += device/rockchip/common/phone/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    	ro.product.version = 1.1.6c \
+    	ro.product.version = 1.1.6d \
 	ro.hwui.disable_scissor_opt=false \
 	ro.hwui.texture_cache_size=48 \
 	ro.hwui.layer_cache_size=32 \
