@@ -65,3 +65,4 @@ ro.kernel.android.checkjni=0
 ro.sf.lcd_density=240
 ro.adb.secure=0
 ro.secure=0
+qemu.hw.mainkeys=1
